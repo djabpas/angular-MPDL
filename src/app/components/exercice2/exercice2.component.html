@@ -1,0 +1,15 @@
+<app-header [title]="'Exercice 2'"></app-header>
+<img class="exerice" src="/assets/thinking.jpg" />
+<div>
+    Your solution here !
+    <div>
+        <button (click)="AwidData()">Get Top10</button>
+    </div>
+    <ul>
+        <li *ngFor="let f of data"> {{f}} 
+            <br><hr>
+           
+
+        </li>
+    </ul>
+</div>
